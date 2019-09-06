@@ -1,0 +1,17 @@
+{
+    "name": "virtualorz/pdf-signature",
+    "authors": [
+        {
+            "name": "virtualorz",
+            "email": "virtualorz@gmail.com"
+        }
+    ],
+    "require": {
+        "setasign/fpdi": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Virtualorz\\PdsSignature\\": "src/"
+        }
+    }
+}
